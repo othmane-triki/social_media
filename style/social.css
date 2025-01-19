@@ -1,0 +1,97 @@
+/* start global customization  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #2196F3;
+    --alt-primary-color: #006ec9;
+    --main-transition: 0.6s;
+    --section-background: #ececec;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Inter", serif;
+    background-color: hsl(0, 0%, 8%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/* end global customization  */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.container .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container img {
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.container .name {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.container .location {
+    font-size: 14px;
+    margin: 5px 0 20px;
+    color: hsl(75, 94%, 57%);
+
+}
+.container .title {
+    color: hsl(0, 0%, 57%);
+    font-size: 14px;
+    margin: 20px 0 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.container .social li {
+    margin: 15px 0;
+    padding: 15px;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 6px;
+    width: 330px;
+    transition: 0.3s;
+    
+}
+.container .social li a {
+    color: white ;
+    font-weight: 600;
+    
+}
+.container .social li:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+.container .social li:hover a{
+    color: hsl(0, 0%, 20%);
+}
